@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leitor</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form id="enviarTexto">
+    <textarea name="texto" id=""></textarea>
+    <button type="submit">OK!</button>
+  </form>
+  <div id="controls">
+    <div class="bg">
+      <h2>Temas</h2>
+      <div class="select"></div>
+    </div>
+    <div class="font">
+      <h2>Fonte</h2>
+      <form id="fontForm" name="fontForm">
+        <label for="tmn">Tamanho</label>
+        <input type="number" value="32" name="tmn" max="64" min="8">
+        <br>
+        <label for="fontes">Fonte</label>
+        <select name="fontes" id="">
+          <option value="Metamorphous">Medieval</option>
+          <option value="monospace">Monospace</option>
+          <option value="Arial">Arial</option>
+          <option value="serif">Serif</option>
+        </select>
+      </form>
+    </div>
+    <div class="opt">
+      <button id="reset">
+        Reset
+      </button>
+    </div>
+  </div>
+  <div id="leitor">
+    Halo : )
+  </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
